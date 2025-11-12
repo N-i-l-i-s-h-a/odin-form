@@ -3,14 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "style.css">
     <title>Odin Form</title>
 </head>
 <body>
     <div class = "main">
+
         <div classs = "left">
-            <div class="logo"><image src = "assets/odin-lined.png"></image></div>
-            <image src = "assets/bg-image.jpg"></image>
+            <div class = "bg-img"><img src = "assets/bg-image.jpg">
+                <div class = "credit"><p>Photo by <a href="#"> Halie West </a> on <a href ="#"> Unsplash </a></p></div>
+            </div>
+            <div class="logo"><image src = "assets/odin-lined.png" width="15%" height="80%"></image>ODIN</div>
         </div>
+
         <div class = "right">
             <p>This is not a real online service! You know you need something like this in your life
             to help you realize your deepest dreams. Sign up <span>now</span> to get started.</p>
@@ -35,8 +40,10 @@
 
                     <label for = "cnfpswd"></label> CONFIRM PASSWORD </label>
                     <input id = "cnfpswd" name = "cnfpswd" type = "password">
-                    
+
+                    <button type= "submit" id = "btn">Create Account</button>
                 </form>
+                <p>Already have an account? <a href="#">Log in</a></p>
             </div>
         </div>
     </div>
